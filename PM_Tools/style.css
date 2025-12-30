@@ -1,0 +1,57 @@
+body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 240px;
+  cursor: default;
+  /* Force default cursor */
+  user-select: none;
+  /* Prevent text selection like a real app */
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 4px;
+}
+
+#res-name {
+  margin: 0;
+  font-weight: bold;
+}
+
+#res-size {
+  margin: 4px 0 0 0;
+  opacity: 0.8;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title {
+  margin: 0 0 4px 0;
+}
+
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer {
+  text-align: right;
+  opacity: 0.5;
+  margin-top: 8px;
+}
+
+sp-button {
+  margin-bottom: 4px;
+}
+
+/* Ensure buttons show pointer cursor */
+sp-button:hover {
+  cursor: pointer;
+}

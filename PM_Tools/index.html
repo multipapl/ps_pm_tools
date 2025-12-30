@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <sp-heading size="XL" id="res-name">Resolving...</sp-heading>
+    <sp-body size="S" id="res-size">Please open an image</sp-body>
+  </div>
+
+  <sp-divider size="S"></sp-divider>
+
+  <div class="content">
+    <sp-heading size="S" class="section-title">Workflow Steps</sp-heading>
+
+    <div class="button-stack">
+      <sp-button id="btn-resize" variant="accent" style="width: 100%">1. Smart Resize</sp-button>
+      <sp-button id="btn-crop" variant="accent" style="width: 100%">2. Activate Crop</sp-button>
+    </div>
+
+    <sp-button id="btn-refresh" variant="secondary" quiet style="width: 100%; margin-top: 10px;">Refresh
+      Analysis</sp-button>
+  </div>
+
+  <sp-divider size="S"></sp-divider>
+
+  <footer class="footer">
+    <sp-body size="XS">PM Tools v1.1.2</sp-body>
+  </footer>
+</body>
+
+</html>

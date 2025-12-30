@@ -1,0 +1,24 @@
+# Adobe UXP
+.debug
+.build
+dist/
+*.ccx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node (in case of future npm usage)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
