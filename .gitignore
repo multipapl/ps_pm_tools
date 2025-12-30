@@ -1,6 +1,7 @@
 # Project structure
 legacy/
 release/
+*.jsx
 
 # Adobe UXP
 .debug
